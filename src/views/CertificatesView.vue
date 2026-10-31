@@ -38,6 +38,12 @@ export default {
           name: 'PPK ORMAWA 2025/2026',
           description: 'Certificate of participation in the Student Organization Capacity Building Program.',
           image: 'ppk-ormawa.jpg'
+        },
+        {
+          id: 7,
+          name: 'JAKA APTIK REGIO BARAT 2026 Committee',
+          description: 'Creative Media division, national Catholic student character development training.',
+          image: 'sertif-aptik.png'
         }
       ]
     };

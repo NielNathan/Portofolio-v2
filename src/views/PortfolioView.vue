@@ -7,28 +7,28 @@ export default {
         {
           id: 1,
           name: 'DigiQ',
-          imageUrl: 'portfolio_v2',
-          status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
-          tech: 'VueJS 3, Tailwind',
+          imageUrl: '/img/porto-digiq.png',
+          status: 'Digital queue system for patients developed for puskesmas.',
+          tech: 'NodeJS, ReactJS, Tailwind, Javascript, PostgreSQL',
           github: 'https://github.com/vinhartz06/SE2025-Antrian-Digital',
           demo: 'https://digiq-one.vercel.app/'
         },
         {
           id: 2,
-          name: 'Sahabat Muslim',
-          imageUrl: 'sahabatmuslim',
-          status: 'A website that has a responsive display to make it easier for Muslims to read the Quran from anywhere.',
-          tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/rakha-elctrnx/muslim-companion',
+          name: 'School Subject Management System',
+          imageUrl: '/img/porto-school.png',
+          status: 'A website for high-school students to take subjects in their school.',
+          tech: 'Laravel, PHP, Blade, MySQL',
+          github: 'https://github.com/NielNathan/IP-SchoolManagementSystem',
           demo: 'https://sahabat-muslim.netlify.app/'
         },
         {
           id: 3,
-          name: 'SISTEKDES',
+          name: 'NDStore',
           imageUrl: 'sistekdes',
-          status: 'Sistem Informasi dan Teknologi Desa, a web application to assist village government work in administration, population data management, community services, etc.',
-          tech: 'Laravel 9, Bootstrap',
-          github: 'null',
+          status: 'Simple website for a phone catalog as a project for final exam.',
+          tech: 'HTML, CSS, Javascript, PHP',
+          github: 'https://github.com/NielNathan/mwc-uas',
           demo: 'null'
         },
         {
@@ -37,15 +37,6 @@ export default {
           imageUrl: 'bumdesma',
           status: 'a web application used by village-owned enterprises at the sub-district level to make it easier for them in terms of accounting that is equipped with a microfinance balance.',
           tech: 'Laravel 8, Bootstrap',
-          github: 'null',
-          demo: 'null'
-        },
-        {
-          id: 5,
-          name: 'SP2SE',
-          imageUrl: 'sp2se',
-          status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
-          tech: 'Codeigniter 3, Bootstrap',
           github: 'null',
           demo: 'null'
         }
@@ -74,7 +65,7 @@ export default {
                 class="item-card flex flex-col items-center gap-2 rounded bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-sky-50 md:gap-3 px-5 py-5 lg:px-5 ">
                 <div class="flex h-12 w-12 items-center justify-center p-0 h-full w-full lg:p-0 zoom-in">
                   <img alt="HTML" loading="lazy" decoding="async" data-nimg="1" class="drop-shadow-xl rounded rounded-xl"
-                    :src="'/img/portfolio-' + item.imageUrl + '.png'">
+                    :src="item.imageUrl">
                 </div>
                 <div class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg">
                   <div class="title-text font-medium text-secondary">{{ item.name }}

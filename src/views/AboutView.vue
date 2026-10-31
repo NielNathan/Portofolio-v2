@@ -14,7 +14,7 @@ export default {
           id: 2,
           name: 'CSS',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
-          status: 'Advanced'
+          status: 'Intermediate'
         },
         {
           id: 3,
@@ -26,7 +26,7 @@ export default {
           id: 4,
           name: 'Javascript',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
-          status: 'Advance'
+          status: 'Intermediate'
         },
         {
           id: 5,
@@ -38,7 +38,7 @@ export default {
           id: 6,
           name: 'NodeJS',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
-          status: 'Intermediate'
+          status: 'Beginner'
         },
         {
           id: 7,
@@ -82,7 +82,7 @@ export default {
           id: 1,
           name: 'Laragon',
           imageUrl: 'https://simpleicons.org/icons/laragon.svg',
-          status: 'Version Control'
+          status: 'Development Environment'
         },
         {
           id: 2,
@@ -100,13 +100,13 @@ export default {
           id: 4,
           name: 'Figma',
           imageUrl: 'https://www.vectorlogo.zone/logos/figma/figma-icon.svg',
-          status: 'Database'
+          status: 'UI/UX Design'
         },
         {
           id: 5,
           name: 'Postman',
           imageUrl: 'https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg',
-          status: 'Database'
+          status: 'API Testing'
         },
         {
           id: 6,
