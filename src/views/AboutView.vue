@@ -36,52 +36,52 @@ export default {
         },
         {
           id: 6,
-          name: 'Codeigniter',
-          imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
+          name: 'NodeJS',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
           status: 'Intermediate'
         },
         {
           id: 7,
-          name: 'VueJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
+          name: 'Java',
+          imageUrl: 'https://www.vectorlogo.zone/logos/java/java-icon.svg',
           status: 'Intermediate'
         },
         {
           id: 8,
-          name: 'AlpineJS',
-          imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
+          name: 'Python',
+          imageUrl: 'https://www.vectorlogo.zone/logos/python/python-icon.svg',
           status: 'Beginner'
         },
         {
           id: 9,
-          name: 'NodeJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
+          name: 'Tailwind',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
           status: 'Beginner'
         },
         {
           id: 10,
-          name: 'Tailwind',
-          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
-          status: 'Advance'
-        },
-        {
-          id: 11,
-          name: 'Bootstrap',
-          imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
-          status: 'Intermediate'
-        },
-        {
-          id: 12,
           name: 'ReactJS',
           imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
           status: 'Beginner'
+        },
+        {
+          id: 11,
+          name: 'MySQL',
+          imageUrl: 'https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg',
+          status: 'Advanced'
+        },
+        {
+          id: 12,
+          name: 'PostgreSQL',
+          imageUrl: 'https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg',
+          status: 'Intermediate'
         }
       ],
       tools: [
         {
           id: 1,
-          name: 'Git',
-          imageUrl: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
+          name: 'Laragon',
+          imageUrl: 'https://simpleicons.org/icons/laragon.svg',
           status: 'Version Control'
         },
         {
@@ -98,8 +98,20 @@ export default {
         },
         {
           id: 4,
-          name: 'MySQL',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png',
+          name: 'Figma',
+          imageUrl: 'https://www.vectorlogo.zone/logos/figma/figma-icon.svg',
+          status: 'Database'
+        },
+        {
+          id: 5,
+          name: 'Postman',
+          imageUrl: 'https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg',
+          status: 'Database'
+        },
+        {
+          id: 6,
+          name: 'HeidiSQL',
+          imageUrl: '/img/HeidiSQL.png',
           status: 'Database'
         },
       ]
@@ -109,37 +121,31 @@ export default {
 </script>
 <template>
   <div
-    class="bg-[#1e1e1f] px-5 py-5 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-amber-50 mx-3 mb-5">
+    class="bg-[#1e1e1f] px-5 py-5 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-sky-50 mx-3 mb-5">
     <article data-page="about">
 
       <header>
-        <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
-          About Me &nbsp;
-          <div class="h-[1px] w-32 bg-amber-200 md:w-96 aos-init aos-animate" data-aos="zoom-in-left"
+        <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center gap-4">
+          <div class="h-[1px] flex-1 bg-ice-blue aos-init aos-animate" data-aos="zoom-in-left"
+            data-aos-duration="600"></div>
+          <h2>About Me</h2>
+          <div class="h-[1px] flex-1 bg-ice-blue aos-init aos-animate" data-aos="zoom-in-left"
             data-aos-duration="600"></div>
         </div>
       </header>
 
       <section
-        class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
-        <div class="flex justify-center">
-          <img class="w-9/12 rounded-full mb-3 fadein-up"
-            src="https://i1.sndcdn.com/avatars-000214125831-5q6tdw-t500x500.jpg" alt="Foto">
-        </div>
-        <div class="md:w-7/12">
+        class="text-sm md:text-lg text-center flex flex-col gap-4 items-center">
+        <div class="w-full">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Bagas Rakha Putra. I'm a web developer from Bogor, West Java. I
-            have 1 year of experience in back-end web development.
-            I really enjoy what I do right now, in my opinion, creating programs is not just a job, but also an art that
-            has
-            aesthetic value
+            Hello! My name is Nathaniel Davis Saputra, an Informatics Engineering student at Soegijapranata Catholic University. 
+            I view programming as a technical skill, creative process, and a personal passion.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; My job is to build your website to be functional and user-friendly yet still attractive.
-            In addition, I provide a personal touch to your product and ensure that the website catches attention and is
-            easy to use.
-            My goal is to convey your message and identity in the most creative way. If you are interested in hiring me,
-            please contact the listed contact.
+            For me, coding is all about curiosity, solving problems, and having fun! 
+            I love turning ideas into simple, clean, and practical web applications. 
+            Every project is a chance for me to learn something new and become a better developer. 
+            Feel free to reach out if you'd like to connect further!
           </p>
         </div>
 
@@ -148,11 +154,11 @@ export default {
     </article>
   </div>
 
-  <div class="px-5 py-5 md:px-12 md:py-10 text-left text-amber-50 mx-3">
+  <div class="px-5 py-5 md:px-12 md:py-10 text-left text-sky-50 mx-3">
     <article data-page="about">
       <header>
         <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
-          <div class="h-[1px] w-10 bg-amber-200 md:w-20 aos-init aos-animate" data-aos="zoom-in-left"
+          <div class="h-[1px] w-10 bg-ice-blue md:w-20 aos-init aos-animate" data-aos="zoom-in-left"
             data-aos-duration="600"></div>
           &nbsp; Skills
         </div>
@@ -162,11 +168,11 @@ export default {
           <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 mb-5">
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tech Stack</button>
+                :class="{ 'text-ice-blue bg-ice-blue bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tech Stack</button>
             </li>
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Tools</button>
+                :class="{ 'text-ice-blue bg-ice-blue bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Tools</button>
             </li>
           </ul>
         </div>
@@ -174,7 +180,7 @@ export default {
           <div class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
             <div v-for="item in tech" :key="item.id">
               <div
-                class="item-tech flex cursor-pointer items-center gap-2 rounded border border-amber-200 px-2 py-2 hover:bg-amber-200 hover:bg-opacity-10 md:gap-3 lg:px-3">
+                class="item-tech flex cursor-pointer items-center gap-2 rounded border border-ice-blue px-2 py-2 hover:bg-ice-blue hover:bg-opacity-10 md:gap-3 lg:px-3">
                 <div class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in">
                   <img alt="HTML" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
                     class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]  "
@@ -184,7 +190,7 @@ export default {
                   <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}
                   </div>
                   <div
-                    class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
+                    class="status-tech opacity-0 absolute mt-5 text-[10px] text-ice-blue transition-all duration-300 md:text-xs lg:text-sm">
                     {{ item.status }}</div>
                 </div>
               </div>
@@ -195,7 +201,7 @@ export default {
           <div class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
             <div v-for="item in tools" :key="item.id">
               <div
-                class="item-tech flex cursor-pointer items-center gap-2 rounded border border-amber-200 px-2 py-2 hover:bg-amber-200 hover:bg-opacity-10 md:gap-3 lg:px-3">
+                class="item-tech flex cursor-pointer items-center gap-2 rounded border border-ice-blue px-2 py-2 hover:bg-ice-blue hover:bg-opacity-10 md:gap-3 lg:px-3">
                 <div class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in">
                   <img alt="HTML" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
                     class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]  "
@@ -205,7 +211,7 @@ export default {
                   <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}
                   </div>
                   <div
-                    class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
+                    class="status-tech opacity-0 absolute mt-5 text-[10px] text-ice-blue transition-all duration-300 md:text-xs lg:text-sm">
                     {{ item.status }}</div>
                 </div>
               </div>

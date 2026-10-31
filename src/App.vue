@@ -6,10 +6,10 @@
     <nav class="max-w-7xl px-5 md:fixed top-0 z-[98] w-screen backdrop-blur-md bg-[#121212] bg-opacity-80">
       <div class="container mx-auto flex flex-wrap items-center justify-between">
         <button @click="redirectToHome" class="flex">
-          <span class="self-center text-lg text-[#ffdb70] font-semibold whitespace-nowrap fadein-bot hover:text-amber-100">nathanDavis</span>
+          <span class="self-center text-lg text-ice-blue font-semibold whitespace-nowrap fadein-bot hover:text-sky-100">nathanDavis</span>
         </button>
         <div class="flex md:order-2 fadein-bot">
-          <a href="https://github.com/rakha-elctrnx"><img class="w-9 rounded-full" src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png" alt="github"></a>
+          <a href="https://github.com/NielNathan"><img class="w-9 rounded-full" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" border='white'></a>
         </div>
         <div class="hidden md:flex justify-between items-center w-full md:w-auto md:order-1" id="mobile-menu-3">
           <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
@@ -27,8 +27,8 @@
                 class="fadein-bot fadein-2 text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-gray-500 md:p-0">Portfolio</router-link>
             </li>
             <li>
-              <router-link to="/blog"
-                class="fadein-bot fadein-3 text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-gray-500 md:p-0 blog">Blog</router-link>
+              <router-link to="/certificates"
+                class="fadein-bot fadein-3 text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-gray-500 md:p-0">Certificates</router-link>
             </li>
           </ul>
         </div>
@@ -44,7 +44,7 @@
     <router-link to="/" class="text-gray-300 hover:text-white">Home</router-link>
     <router-link to="/about" class="text-gray-300 hover:text-white">About</router-link>
     <router-link to="/portfolio" class="text-gray-300 hover:text-white">Portfolio</router-link>
-    <router-link to="/blog" class="text-gray-300 hover:text-white">Blog</router-link>
+    <router-link to="/certificates" class="text-gray-300 hover:text-white">Certificates</router-link>
   </nav>
 </footer>
 </template>
@@ -79,7 +79,7 @@ export default {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ffdb70;
+  background: #8ecbff;
   border-radius: 5px;
 }
 
@@ -119,7 +119,7 @@ nav a.router-link-exact-active::after {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: #ffdb70;
+  background-color: #8ecbff;
 }
 
 nav a.router-link-exact-active:hover {

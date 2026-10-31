@@ -10,7 +10,7 @@ module.exports = {
     }),
     extend: {
       colors: {
-        'yellow-crayola': 'hsl(45, 100%, 72%)'
+        'ice-blue': '#8ecbff'
       }
     },
     animation: {
@@ -994,4 +994,3 @@ module.exports = {
   },
   plugins: [],
 }
-
