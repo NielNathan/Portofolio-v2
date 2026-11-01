@@ -8,7 +8,7 @@ export default {
           id: 1,
           name: 'DigiQ',
           imageUrl: '/img/porto-digiq.png',
-          status: 'Digital queue system for patients developed for puskesmas.',
+          status: 'A digital queue management system designed for public health centers (Puskesmas) to streamline patient registration and real-time queue tracking.',
           tech: 'NodeJS, ReactJS, Tailwind, Javascript, PostgreSQL',
           github: 'https://github.com/vinhartz06/SE2025-Antrian-Digital',
           demo: 'https://digiq-one.vercel.app/'
@@ -17,16 +17,16 @@ export default {
           id: 2,
           name: 'School Subject Management System',
           imageUrl: '/img/porto-school.png',
-          status: 'A website for high-school students to take subjects in their school.',
+          status: 'A web-based course selection platform enabling high school students to manage academic subjects and course enrollment.',
           tech: 'Laravel, PHP, Blade, MySQL',
           github: 'https://github.com/NielNathan/IP-SchoolManagementSystem',
-          demo: 'https://sahabat-muslim.netlify.app/'
+          demo: 'https://school-subject-management-system.onrender.com/'
         },
         {
           id: 3,
           name: 'NDStore',
-          imageUrl: 'sistekdes',
-          status: 'Simple website for a phone catalog as a project for final exam.',
+          imageUrl: '/img/porto-mwc.png',
+          status: 'An e-commerce smartphone catalog web application featuring dynamic product displays and category filtering.',
           tech: 'HTML, CSS, Javascript, PHP',
           github: 'https://github.com/NielNathan/mwc-uas',
           demo: 'null'
@@ -34,17 +34,17 @@ export default {
         {
           id: 4,
           name: 'E-Wallet Guard',
-          imageUrl: 'bumdesma',
-          status: 'A fintech system to detect transaction fraud using RandomForestClassifier.',
+          imageUrl: '/img/porto-fintech.png',
+          status: 'A fintech security system designed to detect transaction fraud using Random Forest classification and feature engineering.',
           tech: 'Python',
-          github: 'null',
+          github: 'https://github.com/NielNathan/E-Wallet-Guard',
           demo: 'null'
         },
         {
           id: 5,
           name: 'DSS Laptop Diagnose',
-          imageUrl: 'bumdesma',
-          status: 'Simple laptop diagnose system using Decision Support System and RandomForestClassifier.',
+          imageUrl: '/img/porto-dss.png',
+          status: 'A Decision Support System (DSS) built to diagnose laptop hardware and software issues using a Random Forest classification model.',
           tech: 'Python',
           github: 'https://github.com/NielNathan/dss-laptop-service',
           demo: 'null'
@@ -52,8 +52,8 @@ export default {
         {
           id: 6,
           name: 'Product Recommendation Machine Learning',
-          imageUrl: 'bumdesma',
-          status: 'Machine learning of an e-commerce product recommendation for a user using HistGradientBoosting algorithm.',
+          imageUrl: '/img/porto-ml.png',
+          status: 'An e-commerce product recommendation system utilizing HistGradientBoosting to predict user recommendation probabilities based on behavioral data.',
           tech: 'Python',
           github: 'null',
           demo: 'https://colab.research.google.com/drive/1WgfwyhPvwaCs947n9AhhnKXWQg2Pt-D_?usp=sharing'
