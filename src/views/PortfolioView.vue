@@ -33,12 +33,30 @@ export default {
         },
         {
           id: 4,
-          name: 'Bumdesma',
+          name: 'E-Wallet Guard',
           imageUrl: 'bumdesma',
-          status: 'a web application used by village-owned enterprises at the sub-district level to make it easier for them in terms of accounting that is equipped with a microfinance balance.',
-          tech: 'Laravel 8, Bootstrap',
+          status: 'A fintech system to detect transaction fraud using RandomForestClassifier.',
+          tech: 'Python',
           github: 'null',
           demo: 'null'
+        },
+        {
+          id: 5,
+          name: 'DSS Laptop Diagnose',
+          imageUrl: 'bumdesma',
+          status: 'Simple laptop diagnose system using Decision Support System and RandomForestClassifier.',
+          tech: 'Python',
+          github: 'https://github.com/NielNathan/dss-laptop-service',
+          demo: 'null'
+        },
+        {
+          id: 6,
+          name: 'Product Recommendation Machine Learning',
+          imageUrl: 'bumdesma',
+          status: 'Machine learning of an e-commerce product recommendation for a user using HistGradientBoosting algorithm.',
+          tech: 'Python',
+          github: 'null',
+          demo: 'https://colab.research.google.com/drive/1WgfwyhPvwaCs947n9AhhnKXWQg2Pt-D_?usp=sharing'
         }
       ]
     };

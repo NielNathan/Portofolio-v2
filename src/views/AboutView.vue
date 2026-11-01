@@ -50,7 +50,7 @@ export default {
           id: 8,
           name: 'Python',
           imageUrl: 'https://www.vectorlogo.zone/logos/python/python-icon.svg',
-          status: 'Beginner'
+          status: 'Intermediate'
         },
         {
           id: 9,
@@ -82,7 +82,7 @@ export default {
           id: 1,
           name: 'Laragon',
           imageUrl: 'https://simpleicons.org/icons/laragon.svg',
-          status: 'Development Environment'
+          status: 'Dev Environment'
         },
         {
           id: 2,
